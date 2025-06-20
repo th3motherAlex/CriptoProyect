@@ -8,10 +8,14 @@
 import SwiftUI
 
 @main
-struct CryptoappApp: App {
+struct CryptoTabbedApp: App {
+    @StateObject var history = TransactionHistory()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(history)
         }
     }
 }
+

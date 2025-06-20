@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BF28E2C42E052212000A2325 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF28E2C32E052212000A2325 /* Info.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		BF28E2C32E052212000A2325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFCA5FBE2DFA668E0057F022 /* Cryptoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		BFCA5FB52DFA668E0057F022 = {
 			isa = PBXGroup;
 			children = (
+				BF28E2C32E052212000A2325 /* Info.plist */,
 				BFCA5FC02DFA668E0057F022 /* Cryptoapp */,
 				BFCA5FBF2DFA668E0057F022 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF28E2C42E052212000A2325 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
